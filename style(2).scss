@@ -1,0 +1,83 @@
+$miAzul:blue;
+$miRojo:red;
+$miVerde:green;
+$miNegro:#000000;
+$miBlanco:#FFFFFF;
+$miRosa:#FF00FF;
+$miFuente:'Playfair Display', serif;
+$miCeleste:#2ECCFA;
+
+
+
+
+header{
+	width: 100%;
+	background:$miNegro;
+}
+
+
+#btn-menu{
+	display: none;
+}
+.asterisco{
+	font-size: 30px;
+	color: $miBlanco; 
+}
+
+header label{
+	display: none;
+	width: 30px;
+	height: 30px;
+	padding: 10px;
+	border-right:1px solid $miBlanco;
+}
+
+header label:hover{
+	cursor:pointer;
+	background-color: #D358F7;
+}
+
+
+.menu ul{
+	margin: 0;
+	list-style: none;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	font-family: $miFuente;
+
+}
+
+
+body{
+	margin: 0px;
+	padding:0px; 
+}
+
+
+.menu li:hover{
+	background-color:#2ECCFA; 
+
+}
+
+.menu li a{
+	display: block;
+	padding: 15px 20px;
+	color: $miBlanco;
+	text-decoration: none;
+
+}
+.menu ul ul{
+	display: none;
+	background: #000000;
+}
+
+.menu ul li:hover ul{
+	display:block;
+	position: absolute;
+}
+
+
+p{
+	font-size:20px;
+}
