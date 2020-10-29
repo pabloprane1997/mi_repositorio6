@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/estilo(4).css">
+	<title>Desarrollo web</title>
+</head>
+<body>
+	 <header>
+    <input type="checkbox" id="btn-menu">
+    <label for="btn-menu" class="asterisco">#</label>
+    <nav class="menu">
+    <ul>
+      <li><a href="inicio.html">Inicio</a></li>
+      <li><a href="servicio.html">Servicio</a>
+      <ul>
+        <li><a href="redessociales.html">Redes Sociales</a></li>
+        <li><a href="arte.html">ilustracion</a></li>
+        <li><a href="seo.html">Desarrollo web</a></li>
+      </ul>
+      </li>
+      <li><a href="https://www.linkedin.com/in/pablo-pranevicene-b703a0198/">Contacto</a></li>
+    </ul>
+    </nav>
+  </header>
+
+
+  <div class="div1">
+  </header>
+  <h1>Completar el formulario para contactarnos</h1>
+  <form method="post" action="registrar.php">
+    <p>Complete este campo con su nombre, apellido y dirección:</p>
+    <ul>
+   <li>Nombre:<input type="text" name="nombre" class="nombre"><br></li>
+   <li>Apellido:<input type="text" name="apellido" class="apellido"><br></li>
+   <li>Dirección:<input type="text" name="dirección" class="direccion"><br></li>
+    </ul>
+  <p>Especifique su género:</p> <br>
+  <div class="div2">
+  <ul>
+  <li><input type="radio" name="genero" value="masculino" class="masculino">masculino<br></li>
+  <li><input type="radio" name="genero" value="femenino" class="femenino">femenino<br></li>
+  <li><input type="radio" name="genero" value="otro" class="otro">otro<br></li>
+  </ul>
+  </div>
+  Idiomas que maneja:<br>
+  <ul>
+  <input type="checkbox" name="idioma1" value="español" class="español">Español<br>
+  <input type="checkbox" name="idioma1" value="españo2" class="ingles">Inglés<br>
+  </ul>
+  Ingrese su país de recidencia:
+  <select name="pais"> 
+    <option value="Argentina">Argentina</option>
+    <option value="Colombia">Colombia</option>
+    <option value="Ecuador">Ecuador</option>
+    <option value="Uruguay">Uruguay</option>
+  </select><br>
+  <p>Por favor especifique que anda buscando y que quiere en su proyecto final, mientras más específico sea mejor podremos trabajar:<br></p>
+  <textarea rows="10" cols="50">
+    Ingrese su información aquí.
+  </textarea><br>
+  <input type="submit" value="Guardar">
+  <input type="reset" value="Enviar"><br>
+  </form>
+  </div>
+
+  <div class="div5">
+  <li><a href="https://www.facebook.com/pabloivan.pranevicene"><img src="imagenes/facebook.png" class="facebook"></a></li>
+  <li><a href="https://www.instagram.com/pabloprane/?hl=es-la"><img src="imagenes/instagram.jpg" class="instagram"></a></li>
+  <li><a href="https://www.linkedin.com/in/pablo-pranevicene-b703a0198/"><img src="imagenes/linkedln.jpg" class="linkedln"></a></li>
+</div>
+
+
+</body>
+</html>
