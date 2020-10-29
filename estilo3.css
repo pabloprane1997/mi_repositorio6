@@ -1,0 +1,330 @@
+body{
+background: #FFFFFF;
+padding: 0;
+margin: 0;
+}
+
+header{
+	width: 100%;
+	background:#000000;
+}
+
+
+#btn-menu{
+	display: none;
+}
+.asterisco{
+	font-size: 30px;
+	color: #FFFFFF; 
+}
+
+header label{
+	display: none;
+	width: 30px;
+	height: 30px;
+	padding: 10px;
+	border-right:1px solid #FFFFFF;
+}
+
+header label:hover{
+	cursor:pointer;
+	background-color:#A4A4A4 ;
+}
+
+
+.menu ul{
+	margin: 0;
+	list-style: none;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	font-family: 'Playfair Display', serif;
+
+}
+.menu li:hover{
+	background-color:#A4A4A4; 
+
+}
+
+.menu li a{
+	display: block;
+	padding: 15px 20px;
+	color: #FFFFFF;
+	text-decoration: none;
+
+}
+.menu ul ul{
+	display: none;
+	background: #000000;
+}
+
+.menu ul li:hover ul{
+	display:block;
+	position: absolute;
+	
+}
+
+h1{
+	font-family: 'Playfair Display', serif;
+	font-size: 50px;
+	color: #E4C421;
+}
+
+#li{
+	font-size: 25px;
+}
+.imagenmarketing{
+	width:100%; 
+	height:100%;
+}
+
+.div{
+	padding: 30px;
+	background: #000000;
+	width:50%;
+	height:50%;
+	text-align: left;
+	border-radius: 30px;
+	margin-top: 60px; 
+}
+
+.div:hover{
+	transition: 1s all;
+	width: 53%;
+}
+
+.p{
+	text-align: left;
+	padding: 0px;
+	font-size: 15px;
+	color: #FFFFFF;
+}
+
+.div2{
+	margin-top: 60px;
+	width: 50%;
+	height: 50%;
+	background: #000000;
+	padding: 30px;
+	border-radius: 30px;
+}
+.div2:hover{
+	transition: 1s all;
+	width: 53%;
+}
+
+.h12{
+	text-align: left;
+}
+
+.p2{
+	color: #FFFFFF;
+	text-align: left;
+}
+
+.redessociales{
+	width:50%;
+	height: 0%;
+}
+
+.div3{
+	width:50%;
+	height:50%;
+	background: #000000; 
+	border-radius: 30px;
+}
+.div3:hover{
+	transition: 1s all;
+	width: 53%;
+}
+
+
+.h13{
+	text-align: left;
+	padding: 20px;
+}
+
+.p3{
+	color: #FFFFFF;
+	padding: 20PX;
+	text-align: left;
+}
+
+.morado{
+	width: 50%;
+	height: 0%;
+	margin-top: 60px;
+}
+
+.programacionimg{
+	width: 50%;
+	height: 0%;
+}
+
+.div4{
+	width: 50%;
+	height: 50%;
+	background: #000000;
+	border-radius: 30px;
+}
+.div4:hover{
+	transition: 1s all;
+	width: 53%;
+}
+
+.h14{
+	text-align: left;
+	padding: 20px;
+}
+
+.p4{
+	text-align: left;
+	color: #FFFFFF;
+	padding: 20px;
+}
+
+.div5{
+	width:100%;
+	height:150px;
+	background: #000000;
+	margin-top: 120px;
+}
+.facebook{
+	width:70px;
+	height:70px;
+}
+.instagram{
+	width:70px;
+	height:70px;
+}
+.linkedln{
+	width: 70px;
+	height: 70px;
+}
+.div5{
+	display: flex;
+}
+
+
+
+@media(max-width: 768px){
+
+	header label{
+		display: block;
+	}
+	.menu{
+		position: absolute;
+		background: #000000;
+		width: 70%;
+		margin-left: -70%; 
+	}
+
+	.menu ul{
+		flex-direction: column;
+	}
+
+	.menu li{
+		border-top: 1px solid #FFFFFF;
+	}
+
+	#btn-menu:checked ~ .menu{
+		margin: 0;
+
+	}
+
+	h1{
+		font-size: 30px;
+		color: #E4C421;
+	}
+
+	.div{
+		width: 50%;
+		height: 50%;
+
+	}
+	h1{
+		font-size: 18px;
+	}
+
+
+	.p{
+		font-size: 8px;
+	}
+
+	.div:hover{
+		transition: 1s all;
+		width: 60%;
+		height: 60%;
+	}
+
+	.div2{
+		width: 50%;
+		height: 50%;
+	}
+	.p2{
+		font-size: 8px;
+	}
+
+	.div3{
+		width: 80%;
+		height: 30%;
+	}
+	.div3:hover{
+		width: 83%;
+		height: 30%;
+	}
+
+
+	.p3{
+		font-size: 8px;
+	}
+
+	.div4{
+		width: 80%;
+		height: 30%;
+	}
+	.div4:hover{
+		width: 83%;
+		height: 30%;
+	}
+	.p4{
+		font-size: 8px;
+	}
+
+	.div5{
+		height:70px ;
+	}
+
+	.facebook{
+		width:40px;
+		height:40px;
+	}
+	.instagram{
+		width:40px;
+		height:40px;
+	}
+	.linkedln{
+		width:40px ;
+		height:40px ;
+	}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
