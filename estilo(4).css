@@ -1,0 +1,115 @@
+header {
+  width: 100%;
+  background: #000000; }
+
+#btn-menu {
+  display: none; }
+
+.asterisco {
+  font-size: 30px;
+  color: #FFFFFF; }
+
+header label {
+  display: none;
+  width: 30px;
+  height: 30px;
+  padding: 10px;
+  border-right: 1px solid #FFFFFF; }
+
+header label:hover {
+  cursor: pointer;
+  background-color: #D358F7; }
+
+.menu ul {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  font-family: "Playfair Display", serif; }
+
+body {
+  margin: 0px;
+  padding: 0px; }
+
+.menu li:hover {
+  background-color: #A4A4A4; }
+
+.menu li a {
+  display: block;
+  padding: 15px 20px;
+  color: #FFFFFF;
+  text-decoration: none; }
+
+.menu ul ul {
+  display: none;
+  background: #000000; }
+
+.menu ul li:hover ul {
+  display: block;
+  position: absolute; }
+
+
+  .div1{
+  margin-top: 30px;
+}
+
+.nombre{
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.apellido{
+  margin-bottom: 20px;
+}
+
+.direccion{
+  margin-bottom: 20px;
+}
+
+.div2{
+  display:;
+}
+
+.masculino{
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+.femenino{
+  margin-bottom: 20px;
+}
+.otro{
+  margin-bottom: 20px;
+}
+.español{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.ingles{
+  margin-bottom: 20px;
+}
+.div5{
+  width:100%;
+  height:150px;
+  background: #000000;
+  margin-top: 120px;
+}
+.facebook{
+  width:70px;
+  height:70px;
+}
+.instagram{
+  width:70px;
+  height:70px;
+}
+.linkedln{
+  width: 70px;
+  height: 70px;
+}
+.div5{
+  display: flex;
+}
+
+h1{
+  color:#E4C421; 
+}
